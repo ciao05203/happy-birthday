@@ -1,27 +1,26 @@
-canvas {
-  position: absolute;
-  top: 0;
-  left: 0;
-}
-p {
-  margin: 0 0;
-  position: absolute;
-  font: 16px Verdana;
-  color: #eee;
-  height: 25px;
-  top: calc(100vh - 30px);
-  text-shadow: 0 0 2px white;
-}
-p a {
-  text-decoration: none;
-  color: #aaa;
-}
-span {
-  font-size: 11px;
-}
-p > a:first-of-type {
-  font-size: 20px;
-}
-body {
-  overflow: hidden;
-}
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="happy birtday.css" />
+    <title>Happy Birthday</title>
+  </head>
+  <body>
+    <!-- Tiktok meowish -->
+    <canvas id="c"></canvas>
+
+    <script
+      data-name="BMC-Widget"
+      data-cfasync="false"
+      src="https://cdnjs.buymeacoffee.com/1.0.0/widget.prod.min.js"
+      data-id="er.robin"
+      data-description="Support me on Buy me a coffee!"
+      data-message=""
+      data-color="#BD5FFF"
+      data-position="Right"
+      data-x_margin="18"
+      data-y_margin="18"></script>
+    <script src="happy birtday.js"></script>
+  </body>
+</html>
